@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geliştirme Önerileri</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #eef2f3;
+          padding: 40px;
+        }
+    
+        .container {
+          background-color: white;
+          max-width: 600px;
+          margin: auto;
+          padding: 30px;
+          border-radius: 10px;
+          box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+    
+        h2 {
+          text-align: center;
+          color: #333;
+        }
+    
+        textarea {
+          width: 100%;
+          height: 200px;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          resize: vertical;
+          font-size: 16px;
+        }
+    
+        .button-group {
+          margin-top: 20px;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+        }
+    
+        button, a.mail-btn {
+          padding: 10px 20px;
+          background-color: #007bff;
+          color: white;
+          text-decoration: none;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          text-align: center;
+        }
+    
+        button:hover, .mail-btn:hover {
+          background-color: #0056b3;
+        }
+    
+        .info {
+          margin-top: 20px;
+          font-size: 14px;
+          color: #555;
+        }
+      </style>
+</head>
+<body>
+    
+  <div class="container">
+    <h2>Geliştirme Önerilerinizi Paylaşın</h2>
+
+    <form>
+      <label for="oneriler">Öneriniz:</label>
+      <textarea id="oneriler" name="oneriler" placeholder="Görüş, öneri veya iyileştirme fikirlerinizi buraya yazın..."></textarea>
+
+      <div class="button-group">
+        <button type="submit" onclick="alert('Teşekkürler! Öneriniz kaydedildi (demo).'); return false;">Gönder</button>
+
+        <!-- Burada mailto kullanılarak kullanıcı öneriyi e-posta olarak gönderebilir -->
+        <a class="mail-btn" href="mailto:seninmailin@example.com?subject=Geliştirme Önerisi&body=Lütfen önerinizi buraya yazın.">Mail ile Gönder</a>
+      </div>
+    </form>
+
+    <div class="info">
+      Eğer önerinizi doğrudan bizimle paylaşmak isterseniz, yukarıdaki "Mail ile Gönder" seçeneğini kullanabilirsiniz.
+    </div>
+  </div>
+</body>
+</html>
