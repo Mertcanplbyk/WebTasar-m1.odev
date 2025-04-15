@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Arama</title>
+    <link rel="stylesheet" href="external.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+        </ul>
+    </nav>
+
+    <h1>YouTube Müzik Arama</h1>
+    <form id="searchForm">
+        <label for="search">Arama Yapın:</label>
+        <input type="text" id="search" name="search_query" required>
+        <button type="submit">Ara</button>
+    </form>
+
+    <script>
+        document.getElementById("searchForm").addEventListener("submit", function(e) {
+            e.preventDefault();
+            const query = document.getElementById("search").value;
+            const url = "https://music.youtube.com/search?q=" + encodeURIComponent(query);
+            window.open(url, "_blank");
+        });
+    </script>
+</body>
+</html>

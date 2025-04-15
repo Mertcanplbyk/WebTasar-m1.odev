@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+form {
+    text-align: center;
+    margin: 20px;
+}
+form input, form textarea {
+    width: 60%;
+    margin: 5px;
+    padding: 8px;
+}
+button {
+    padding: 8px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#favoriler {
+    padding: 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+.kategori {
+    margin-bottom: 30px;
+}
+.kategori h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.sanatcilar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.sanatcilar img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+.sanatcilar img:hover {
+    transform: scale(1.05);
+}
