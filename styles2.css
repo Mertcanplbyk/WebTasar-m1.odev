@@ -1,0 +1,180 @@
+nav {
+  margin-bottom: 40px;
+  background-image: url("imgs/navıyenidendene.avif");
+  background-size: cover;       
+  background-position: center;  
+  padding: 10px;
+  height: 150px;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  padding: 14px 28px;
+  font-size: 18px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.nav-links li a:hover {
+  background-color: #555;
+  transform: scale(1.05); /* Hafif büyüme efekti */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("imgs/csgowallpaper_701512240961_1713993407_561056048283.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.form-wrapper {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+  color: white;
+}
+
+.form-wrapper h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0066cc;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #004d99;
+}
+
+.veri-tablo-wrapper {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+  color: white;
+}
+
+.veri-tablo-wrapper h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgba(0,0,0,0.7);
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #444;
+  color: #fff;
+}
+
+th {
+  background-color: #222;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.mac-takvimi {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  color: white;
+}
+
+.mac-takvimi h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #00ccff;
+}
+
+.takvim-tablosu {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.takvim-tablosu th,
+.takvim-tablosu td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #444;
+  text-align: center;
+}
+
+.takvim-tablosu th {
+  background-color: #111;
+  color: #fff;
+}
+
+.takvim-tablosu tr:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.rakip-logo {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 8px;
+  border-radius: 4px;
+}

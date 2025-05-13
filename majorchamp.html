@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Major Şampiyonu Tahmin Et</title>
+  <link rel="stylesheet" href="oyun.css">
+  
+</head>
+<body>
+     <nav>
+        <ul class="nav-links">
+  <li><a href="index.html">Ana Sayfa</a></li>
+  <li><a href="Oyunlar.html">Rol Aldığımız Oyunlar</a></li>
+  <li><a href="cskadro.html">CS2 Kadromuz</a></li>
+  <li><a href="iltsm.html">İletişim</a></li>
+  <li><a href="veriler.html">Geri Dönüşleriniz</a></li>
+  <li><a href="majorchamp.html">Major İçin Şampiyonu Sen Seç</a></li>
+</ul> 
+    </nav>
+
+
+
+  <h1 >Major Şampiyonu Tahmin Et!</h1>
+
+  <p>1 ile 5 arasında bir sayı seç ve şampiyonunu tahmin et!</p>
+
+  <form id="sayiForm">
+    <label for="sayi">Bir sayı girin (1-5):</label>
+    <input type="number" id="sayi" name="sayi" min="1" max="5" required>
+    <button type="submit">Tahmin Et</button>
+  </form>
+
+  <div id="sonuc"></div>
+
+  <h2>Takımlar:</h2>
+  <ul id="takimlar-listesi">
+    <!-- Takımlar burada dinamik olarak yüklenecek -->
+  </ul>
+
+  <script src="majorchamp.js"></script>
+</body>
+</html>
