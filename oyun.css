@@ -1,0 +1,142 @@
+
+nav {
+  margin-bottom: 40px;
+  background-image: url("imgs/navıyenidendene.avif");
+  background-size: cover;       
+  background-position: center;  
+  padding: 10px;
+  height: 150px;
+}
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  padding: 14px 28px;
+  font-size: 18px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.nav-links li a:hover {
+  background-color: #555;
+  transform: scale(1.05); /* Hafif büyüme efekti */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ margin: 0;
+  padding: 0;
+  background-image: url("imgs/csgowallpaper_701512240961_1713993407_561056048283.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: blue;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1.2em;
+  color: #555;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+form label {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+form input {
+  padding: 10px;
+  font-size: 1em;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 50%;
+}
+
+form button {
+  padding: 10px 20px;
+  font-size: 1.1em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.8em;
+  margin-top: 20px;
+}
+
+#takimlar-listesi {
+  list-style: none;
+  padding: 0;
+}
+
+#takimlar-listesi li {
+  background-color: #f7f7f7;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#sonuc {
+  font-size: 1.3em;
+  color: yellow;
+  text-align: center;
+  margin-top: 20px;
+}
